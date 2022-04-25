@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="/images/favic/android-chrome-192x192.png"  >
+
+  <!-- font family -->
+  <link href="https://fonts.googleapis.com/css2?family=Acme&family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <title>E-Mental Health Assistant</title>
+</head>
+
+<body onload="tre_thir_box()">
+  <!-- Navbar -->
+
+
+  <!-- Main Page start -->
+  <section class="bgimg">
+    <div>
+      <div class="nav">
+        <div class="nav-bar-heading">
+          <div class="logo">
+            <img src="images/logo.png" />
+            <h1>E-Mental Health Assistant</h1>
+          </div>
+        </div>
+        <div class="nav-bar-content">
+          <ul>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="http://127.0.0.1:5000"target="blank">Chatbot</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="https://ecovidclinc.000webhostapp.com/"target="blank">Video Calling</a></li>
+            <li><a href="https://relaxmusic001.000webhostapp.com/"target="blank">Binaural Beats</a></li>
+            <li><a href="ContactFrom_v1\ContactFrom_v1\index.html"target="blank">Contact Us</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="Wlcmpg">
+      <b>
+        <p id="wlchead"> Professional Psychology Therapy
+        <p>
+      </b><br><br>
+      <p id="wlcbdy">Mental health is not a destination, but a process. It's about how you drive, not where you're
+        going....</p>
+
+    </div>
+
+    <!-- Blur text box for mental health sessions -->
+    <div class="fmenh">
+      <section id="fmenh_txt">DOCTOR IS ONE CLICK AWAY .. </section>
+      <br><br>
+      <button onclick="window.location.href='https://ecovidclinc.000webhostapp.com/';" id="fmenh_btn"> Video Treatment </button>
+    </div>
+  </section>  
+    <!-- Image Slider content -->
+    <!-- <div class="slider">
+         <div class="images"></div>
+
+    </div> -->
+
+    <!-- Bottom 3 boxes -->
+    <div class="threebox">
+      <span id="c" onclick="tre_thir_box()"><img src="images/confidence.jpg" id="c_img"><b> Boost Your Confidence</b><br><br>
+        <p>We also have short yoga podcast and meditation sessions</p>
+      </span>
+      <span id="b" onclick="tre_sec_box()"><img src="images/chatbot.png" id="b_img"><b>24 X 7 Online Chatbot SERVICE</b> <br><br>
+        <p> AI Generated Chatbot that recommends Sessions and Blogs according to your needs </p>
+      </span>
+      <span id="a" onclick="tre_fir_box()" ><img src="images/online-chat.png"  id="a_img"><b>Mental Health Sessions</b><br><br>
+        <p>Select process right Dedicated Health sessions from our reputed psychologists</p></span>
+    </div>
+  
+
+
+
+  
+
+  <!-- services part -->
+    
+  <div id="services_bg">
+
+    <div class="left_part" style="flex-basis: 45%">
+        <h1 class="left_part_h1">Services Offered</h1>
+        <span class="left_part_span"> <em>Free Consultation</em> </span>
+        <p class="left_part_p">E-mental health services can offer creative and cost-effective ways of meeting some of the mental health needs of the community, in particular, those groups and individuals that do not currently seek help from current service providers. The Australian National Survey of Mental Health and Well-being in 2007 found that only 35% of people with a mental illness had used a health service within the survey period (ABS, 2007). E-mental health tools and resources have the potential to increase access to, and improve the quality of care, as follows: </p>
+
+        <p class="left_part_p">Helping to improve continuity of care: E-mental health technology can facilitate collaboration between primary and secondary care, and other agencies, and help to support ongoing decision-making with patients. This can include established health information systems such as the My Health Record system in Australia, where consumers have control of their health information and share data with medical professionals.</p>
+    </div>
+    <div class="right_part" style="flex-basis: 55%">
+      <div style="flex-basis: 50%">
+        <div class="first_block">
+          <div class="center-align">
+            <img src="images/teen.png" class="right_part_img">
+            <h2>Teens</h2>
+          </div>
+        </div>
+        <div class="second_block">
+          <div  class="center-align">
+            <img src="images/family.png" class="right_part_img">
+            <h2>Families</h2>
+          </div>
+        </div>
+      </div>
+      <div style="flex-basis: 50%">
+        <div class="third_block">
+          <div  class="center-align">
+            <img src="images/user.png" class="right_part_img">
+            <h2>People</h2>
+          </div>
+        </div>
+        <div class="fourth_block">
+          <div  class="center-align">
+            <img src="images/couple-silhouette.png" class="right_part_img">
+            <h2>Couples</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>    
+
+
+  <!-- ABOUT US -->
+
+  <div class="wrapper"  id="about">
+    <div class="wrapper-h1">
+        <h1 >About Us</h1>
+    </div>
+    <div class="testimonial">
+        <div class="row-r">
+         <div class="item">
+             <div class="img">
+                 <img src="images\Joel.jpeg" alt="">
+             </div>
+             <div class="name">
+                  Joel Varghese
+             </div>
+             <div class="content">
+                 <!-- <h1><i class="fas fa-quote-left"></i></h1> -->
+                 <p><b>Frontend developer</b><br>I am an aspiring coder also learning web designing and web development. Right now i know basics of front-end and backend and also I'm a very quick learner.</p>
+             </div>
+         </div>
+
+         <div class="item">
+          <div class="img">
+              <img src="images\shivansh.jpeg" alt="">
+          </div>
+          <div class="name">
+               Shivansh Rastogi
+          </div>
+          <div class="content">
+              <!-- <h1><i class="fas fa-quote-left"></i></h1> -->
+              <p><b>Chatbot Developer</b><br>I am a web dev and Ml enthusiast, who loves to explore and reach new horizons</p>
+          </div>
+      </div>
+
+      <div class="item">
+          <div class="img">
+              <img src="images\gagan.jpeg" alt="">
+          </div>
+          <div class="name">
+               Gagan Srivastava
+          </div>
+          <div class="content">
+              <!-- <h1><i class="fas fa-quote-left"></i></h1> -->
+              <p><b>Frontend Developer</b><br>I am a Frontend developer. I like to learn about web development and loves to explore new  things realted to web develepment & designing.</p>
+          </div>
+      </div>
+        </div>
+        <div class="row-r">
+         <div class="item">
+             <div class="img">
+                 <img src="images\subhranil.jpeg" alt="">
+             </div>
+             <div class="name">
+                  Subhranil Dutta
+             </div>
+             <div class="content">
+                 <!-- <h1><i class="fas fa-quote-left"></i></h1> -->
+                 <p><b>Backend Developer</b><br>Hi, I am a backend developer who loves to explore and work with different languages and technologies.</p>
+             </div>
+          </div>
+
+        
+
+         <div class="item">
+          <div class="img">
+              <img src="images\chirag1.png" alt="">
+          </div>
+          <div class="name">
+               Chirag Ailani
+          </div>
+          <div class="content">
+              <!-- <h1><i class="fas fa-quote-left"></i></h1> -->
+              <p><b>Frontend Developer</b><br>I am a front end developer who love to explore new things in life with knowledge of HTML,CSS and Bootstrap and JS</p>
+          </div>
+         </div>
+        </div>
+    </div>
+  </div>
+
+
+ <!-- Footer -->
+
+ <footer id="footer">
+  <div class="footer-image">
+    <img
+      class="footer-image-des"
+      src="images/twitter.png"
+      alt=""
+      height="20px"
+    />
+    <img
+      class="footer-image-des"
+      src="images/facebook-app-symbol.png"
+      alt=""
+      height="20px"
+    />
+    <img
+      class="footer-image-des"
+      src="images/instagram.png"
+      alt=""
+      height="20px"
+    />
+  </div>
+  <p>© Copyright 2022 E-Mental Health Assistant</p>
+</footer>
+
+</body>
+
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="/script.js"></script>
+
