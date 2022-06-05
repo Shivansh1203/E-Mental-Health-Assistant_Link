@@ -1,0 +1,114 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Hi bro"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hi sweetie, Nice to meet you"
+
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting and remember stay positive",
+        "Have a nice day and be relaxed",
+        "Bye! Come back again soon and don't take undue pressure bro."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "stress",
+      "patterns": [
+        "How can i deal with stress?",
+        "How to cope up with competition?",
+        "How can i be happy?",
+        "Any more suggestions?"
+      ],
+      "responses": [
+        "You can talk with your family.",
+        "Go for a walk to lighten your mood.",
+        "Don't overthink and take unnecessary pressure.",
+        "Always believe in yourself don't think what others thinks about you."
+      ]
+    },
+    {
+      "tag": "Links",
+      "patterns": [
+        "Which sites should i refer for relaxation?",
+        "Which Meditation sites should i follow?",
+        "Relaxing articles",
+        "Mental health related guidance",
+        "Any other sites?"
+      ],
+      "responses": [
+        "Follow this website: Butterfly Foundation, I am sure it will make you feel good.",
+        "Follow this website: Children of Parents with a Mental Illness (COPMI), I am sure it will make you feel good.",
+        "Follow this website: Head to Health, I am sure it will make you feel good.",
+        "Follow this website: ReachOut.com, I am sure it will make you feel good."
+      ]
+    },
+    {
+      "tag": "Doubts",
+      "patterns": [
+        "Am i useless?",
+        "I cant do anything",
+        "I want to give up",
+        "I didnt got a good college"
+      ],
+      "responses": [
+        "Always have a never be defeated attitude like a lion.",
+        "Everyone faces difficulties but what matters the most is how you tackle them fearlessly.",
+        "Even the Great Albert Einstein and Ramanujan failed but they never gave up and today they are considered to be one of the greatest",
+        "Learn from your mistakes instead of taking stress about them."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "What did the buffalo say when his son left for college? Bison.",
+        "I think i am better than siri or Alexa ... no offense but thats a fact ;)",
+        " I cant believe I got fired from the calendar factory. All I did was take a day off.",
+        "I think i am better than siri or Alexa ... no offense but thats a fact ; )",
+        "Santa - banta ?? wanna read ... oops i meant to be funny!",
+        "I used to think I was indecisive. But now I am not so sure."
+      ]
+    },
+
+    {
+      "tag": "About Us",
+      "patterns": [
+        "Who made you?",
+        "Tell something about you"
+      
+      ],
+      "responses": [
+        "I am your friend made by the E-Mental Health Assistant Site and yes i have feelings too.",
+        "I am here to help you and to make you feel good made by E - Mental Health Assistant Site."
+      
+      ]
+    }
+  ]
+}
